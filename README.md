@@ -51,11 +51,9 @@ python bot.py
 1. Create a `proxy.txt` file in the project directory
 2. Add your proxies (one per line) in any of these formats:
    ```
-   ip:port
-   ip:port:username:password
-   username:password@ip:port
-   http://username:password@ip:port
-   socks5://username:password@ip:port
+http://username:password@ip:port
+http://ip:port
+socks5://username:password@ip:port
    ```
 
 3. Run the bot:
